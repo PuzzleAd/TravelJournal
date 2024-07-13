@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  .leftSide {
+    text-align: left;
+  }
+}

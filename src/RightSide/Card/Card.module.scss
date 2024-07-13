@@ -1,0 +1,68 @@
+.card {
+  width: 100%;
+  background-color: white;
+  padding: 40px 40px 29px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    .photo {
+      width: 125px;
+      height: 168px;
+      border-radius: 5px;
+    }
+    .textBox {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      .topText {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        h6 {
+          font-family: Inter;
+          font-size: 10.24px;
+          font-weight: 400;
+          line-height: 12.39px;
+          letter-spacing: 0.17em;
+          color: rgba(43, 40, 58, 1);
+        }
+        a {
+          text-decoration: none;
+          font-family: Inter;
+          font-size: 10.24px;
+          font-weight: 400;
+          line-height: 12.39px;
+          color: rgba(145, 142, 155, 1);
+        }
+      }
+      h1 {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30.26px;
+        color: rgba(43, 40, 58, 1);
+      }
+      p {
+        font-family: Inter;
+        font-size: 10.24px;
+        font-weight: 700;
+        line-height: 12.39px;
+        color: rgba(43, 40, 58, 1);
+      }
+      .description {
+        max-width: 326px;
+        font-family: Inter;
+        font-size: 10.24px;
+        font-weight: 400;
+        line-height: 15.36px;
+        text-align: left;
+        color: rgba(43, 40, 58, 1);
+      }
+    }
+  }
+}
